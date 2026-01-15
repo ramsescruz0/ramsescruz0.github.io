@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Ramsés Cruz</title>
+        <link>https://localhost:1313/</link>
+        <description>Always learning. Always improving.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>🄯 2026 Ramsés Cruz</copyright>
+            <atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

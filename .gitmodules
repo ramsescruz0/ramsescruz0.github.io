@@ -1,0 +1,3 @@
+[submodule "themes/flag-plant"]
+	path = themes/flag-plant
+	url = https://github.com/dillonzq/LoveIt.git

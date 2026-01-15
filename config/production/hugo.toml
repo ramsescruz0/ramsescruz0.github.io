@@ -1,0 +1,6 @@
+environment = 'production'
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-XXXXXXXX'
+
