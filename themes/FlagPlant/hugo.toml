@@ -15,7 +15,7 @@
   # website title for Open Graph and Twitter Cards
   title = "Ramsés Cruz"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Always learning. Always improving."
+  description = "Connect with Ramsés Cruz, an IT professional passionate about building secure and efficient systems. Watch this space for insights on Linux system administration, security best practices, and digital privacy."
   # website images for Open Graph and Twitter Cards
   images = []
 
@@ -439,7 +439,7 @@
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "W9R18NhzsnC7l5JpCYYccp3VE5KD1IhOnqxQCzaTY8M"
     bing = ""
     yandex = ""
     pinterest = ""
@@ -456,7 +456,7 @@
   [params.analytics]
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-83ELTHH8L1"
       # whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
     # Fathom Analytics
