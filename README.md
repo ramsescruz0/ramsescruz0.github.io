@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ramsescruz0.github.io
-=======
 # My Personal Landing Page
 
 Contained herein is the source code for my personal landing page and site.  This repository will serve as a place to host my digital identity along with some thoughts and ideas.
@@ -93,4 +90,4 @@ With Hugo, creating a starter template for your site, adding content, site confi
     
     
 Now you've got a good starting point for your own site! Well done!
->>>>>>> 676173b (Begin Migration from Old Site to Static Site)
+
