@@ -34,10 +34,9 @@
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      # LOGO 的 URL
       logo = ""
       # title name
-      name = "My cool site"
+      name = "Ramsés Cruz"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -49,11 +48,11 @@
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = ""
+    custom = "🄯 2026 Ramsés Cruz"
     # whether to show Hugo and theme info
     hugo = false
     # whether to show copyright info
-    copyright = true
+    copyright = false
     # whether to show the author
     author = true
     # site creation time
@@ -82,7 +81,7 @@
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My cool site"
+    title = "Ramsés Cruz"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -98,7 +97,7 @@
   [params.search]
     enable = false
     # type of search engine ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -128,9 +127,9 @@
       # URL of avatar shown in home page
       avatarURL = ""
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "Ramsés Cruz"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is my cool site"
+      subtitle = "Thank you for visiting"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -144,87 +143,87 @@
       paginate = 6
   # Social config in home page
   [params.social]
-    GitHub = "https://github.com/ramsescruz0"
-    Linkedin = "https://www.linkedin.com/in/ramsescruz0/"
-    X = "https://x.com/ramsescruz0"
-    Instagram = "https://www.instagram.com/ramsescruz0/"
-    Facebook = ""
-    Telegram = "https://t.me/ramsescruz0"
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = "https://keybase.io/ramsescruz0"
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
     Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
+    Bandcamp = ""
     Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = "https://mastodon.social/@ramsescruz0"
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = "https://matrix.to/@ramsescruz0"
     Bilibili = ""
-    Discord = ""
+    Bitbucket = ""
+    Codeberg = ""
+    Codepen = ""
+    Deviantart = ""
+    Devto = ""
+    Discord = "ramsescruz0"
     DiscordInvite = ""
-    Lichess = ""
-    ORCID = ""
-    Pleroma = ""
-    Kaggle = ""
-    MediaWiki = ""
-    Plume = ""
+    Douban = ""
+    Dribbble = ""
+    Facebook = ""
+    Fivehundredpx = ""
+    Flickr = ""
+    Foursquare = ""
+    FreeCodeCamp = ""
+    Gitea = ""
+    GitHub = "ramsescruz0"
+    Gitlab = ""
+    Goodreads = ""
+    Googlescholar = ""
+    Hackernews = ""
     HackTheBox = ""
-    RootMe = ""
+    HuggingFace = ""
+    Instagram = "ramsescruz0"
+    Jsfiddle = ""
+    Kaggle = ""
+    Keybase = "ramsescruz0"
+    Kickstarter = ""
+    Lastfm = ""
+    Lichess = ""
+    Linkedin = "ramsescruz0"
     Malt = ""
+    Mastodon = "https://mastodon.social/@ramsescruz0"
+    Matrix = "@ramsescruz0:matrix.org"
+    MediaWiki = ""
+    Medium = ""
+    Mix = ""
+    Odnoklassniki = ""
+    ORCID = ""
+    Patreon = ""
+    Paypal = ""
+    Pinterest = ""
+    Pleroma = ""
+    Plume = ""
+    Quora = ""
+    Reddit = ""
+    Researchgate = ""
+    RootMe = ""
+    Skype = ""
+    Slidershare = ""
+    Snapchat = ""
+    Soundcloud = "ramsescruz0"
+    Spotify = ""
+    Stackoverflow = ""
+    Steam = "ramsescruz0"
+    Strava = ""
+    Telegram = "ramsescruz0"
+    Thingiverse = ""
+    Threads = ""
     TikTok = ""
     TryHackMe = ""
-    Codeberg = ""
-    HuggingFace = ""
-    Threads = ""
+    Tumblr = ""
+    Twitch = "ramsescruz0"
+    Vine = ""
+    VK = ""
+    Weibo = ""
+    Whatsapp = ""
+    Wordpress = ""
+    X = "ramsescruz0"
+    Xing = ""
+    Youtubechannel = ""
+    Youtubecustom = ""
+    Youtubelegacy = ""
+    Zhihu = ""
     Email = ""
     Phone = ""
     RSS = ""
+    XMPP = ""
 
   # Page global config
   [params.page]
@@ -296,45 +295,41 @@
     # Social share links in post page
     [params.page.share]
       enable = true
-      X = true
-      Threads = false
-      Facebook = true
-      Linkedin = true
-      Whatsapp = false
-      Pinterest = false
-      Tumblr = false
-      HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = false
-      Instapaper = false
-      Pocket = false
-      Flipboard = false
-      Weibo = false
-      Blogger = false
       Baidu = false
-      Odnoklassniki = false
-      Evernote = false
-      Skype = false
-      Trello = false
+      Blogger = false
+      Buffer = false
       Diaspora = false
+      Evernote = false
+      Facebook = true
+      Flipboard = false
+      HackerNews = false
+      Instapaper = false
+      Line = false
+      Linkedin = true
       Mix = false
+      Odnoklassniki = false
+      Pinterest = false
+      Pocket = false
+      Reddit = false
+      Skype = false
       Telegram = true
+      Threads = false
+      Trello = false
+      Tumblr = false
+      VK = false
+      Weibo = false
+      Whatsapp = false
+      Xing = false
+      X = true
     # Comment config
-    # 评论系统设置
     [params.page.comment]
       enable = false
       # Disqus comment config (https://disqus.com/)
-      # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
         # Disqus shortname to use Disqus in posts
-        # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = ""
       # Gitalk comment config (https://github.com/gitalk/gitalk)
-      # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = false
         owner = ""
@@ -342,7 +337,6 @@
         clientId = ""
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
-      # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
         appId = ""
@@ -352,7 +346,6 @@
         meta= ""
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty
-        # 为空时自动适配当前主题 i18n 配置
         lang = ""
         visitor = true
         recordIP = true
@@ -364,24 +357,16 @@
         # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/lib/valine/emoji/"
-        # emoji 数据文件名称, 默认是 "google.yml"
-        # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # 位于 "themes/LoveIt/assets/lib/valine/emoji/" 目录
-        # 可以在你的项目下相同路径存放你自己的数据文件:
-        # "assets/lib/valine/emoji/"
         emoji = ""
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-      # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
         enable = false
         width = "100%"
         numPosts = 10
         appId = ""
         # automatically adapt the current theme i18n configuration when empty
-        # 为空时自动适配当前主题 i18n 配置
         languageCode = ""
       # Telegram comments config (https://comments.app/)
-      # Telegram comments 评论系统设置 (https://comments.app/)
       [params.page.comment.telegram]
         enable = false
         siteID = ""
@@ -392,11 +377,9 @@
         dislikes = false
         outlined = false
       # Commento comment config (https://commento.io/)
-      # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
         enable = false
       # utterances comment config (https://utteranc.es/)
-      # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -406,17 +389,14 @@
         lightTheme = "github-light"
         darkTheme = "github-dark"
       # giscus comment config (https://giscus.app/)
-      # giscus comment 评论系统设置 (https://giscus.app/zh-CN)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        # 你可以参考官方文档来使用下列配置
         enable = false
         repo = ""
         repoId = ""
         category = "Announcements"
         categoryId = ""
         # automatically adapt the current theme i18n configuration when empty
-        # 为空时自动适配当前主题 i18n 配置
         lang = ""
         mapping = "pathname"
         reactionsEnabled = "1"
@@ -426,17 +406,16 @@
         lightTheme = "light"
         darkTheme = "dark"
     # Third-party library config
-    # 第三方库配置
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        # located in "assets/" 位于 "assets/"
-        # Or 或者
+        # located in "assets/"
+        # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
         # someJavascript = "some.js"
-        # located in "assets/" 位于 "assets/"
-        # Or 或者
+        # located in "assets/" "assets/"
+        # Or
         # someJavascript = "https://cdn.example.com/some.js"
     # Page SEO config
     [params.page.seo]

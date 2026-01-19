@@ -2,5 +2,15 @@ environment = 'production'
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-XXXXXXXX'
+    ID = 'G-83ELTHH8L1'
+    
+  # Analytics config
+[params]
+  [params.analytics]
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-83ELTHH8L1"
+      # whether to respect the browser’s “do not track” setting
+      respectDoNotTrack = false
+
 

@@ -1,0 +1,11 @@
+.hugo_build.lock
+# addded by ramses
+/public/*
+/themes/FlagPlant/.babelrc
+/themes/FlagPlant/.circleci/
+/themes/FlagPlant/.husky/
+/themes/FlagPlant/package.json
+/themes/FlagPlant/package-lock.json
+/themes/FlagPlant/go.mod
+/themes/FlagPlant/README.md
+
