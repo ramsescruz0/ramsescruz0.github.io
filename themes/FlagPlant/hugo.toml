@@ -129,7 +129,7 @@
       # title shown in home page (HTML format is supported)
       title = "Ramsés Cruz"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Thank you for visiting"
+      subtitle = "Thank you for visiting."
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -148,11 +148,12 @@
     Behance = ""
     Bilibili = ""
     Bitbucket = ""
+    BlueSky = "ramsescruz0.bsky.social"
     Codeberg = ""
     Codepen = ""
     Deviantart = ""
     Devto = ""
-    Discord = "ramsescruz0"
+    Discord = ""
     DiscordInvite = ""
     Douban = ""
     Dribbble = ""
