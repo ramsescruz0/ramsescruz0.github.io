@@ -129,7 +129,7 @@
       # title shown in home page (HTML format is supported)
       title = "Ramsés Cruz"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Thank you for visiting"
+      subtitle = "Thank you for visiting."
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -148,11 +148,12 @@
     Behance = ""
     Bilibili = ""
     Bitbucket = ""
+    BlueSky = "ramsescruz0.bsky.social"
     Codeberg = ""
     Codepen = ""
     Deviantart = ""
     Devto = ""
-    Discord = "ramsescruz0"
+    Discord = ""
     DiscordInvite = ""
     Douban = ""
     Dribbble = ""
@@ -169,7 +170,7 @@
     Hackernews = ""
     HackTheBox = ""
     HuggingFace = ""
-    Instagram = "ramsescruz0"
+    Instagram = ""
     Jsfiddle = ""
     Kaggle = ""
     Keybase = "ramsescruz0"
@@ -294,13 +295,13 @@
       fullscreen = true
     # Social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Baidu = false
       Blogger = false
       Buffer = false
       Diaspora = false
       Evernote = false
-      Facebook = true
+      Facebook = false
       Flipboard = false
       HackerNews = false
       Instapaper = false
@@ -312,7 +313,7 @@
       Pocket = false
       Reddit = false
       Skype = false
-      Telegram = true
+      Telegram = false
       Threads = false
       Trello = false
       Tumblr = false
@@ -320,7 +321,7 @@
       Weibo = false
       Whatsapp = false
       Xing = false
-      X = true
+      X = false
     # Comment config
     [params.page.comment]
       enable = false
