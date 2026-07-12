@@ -169,7 +169,7 @@
     Hackernews = ""
     HackTheBox = ""
     HuggingFace = ""
-    Instagram = "ramsescruz0"
+    Instagram = ""
     Jsfiddle = ""
     Kaggle = ""
     Keybase = "ramsescruz0"
@@ -294,13 +294,13 @@
       fullscreen = true
     # Social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Baidu = false
       Blogger = false
       Buffer = false
       Diaspora = false
       Evernote = false
-      Facebook = true
+      Facebook = false
       Flipboard = false
       HackerNews = false
       Instapaper = false
@@ -312,7 +312,7 @@
       Pocket = false
       Reddit = false
       Skype = false
-      Telegram = true
+      Telegram = false
       Threads = false
       Trello = false
       Tumblr = false
@@ -320,7 +320,7 @@
       Weibo = false
       Whatsapp = false
       Xing = false
-      X = true
+      X = false
     # Comment config
     [params.page.comment]
       enable = false
