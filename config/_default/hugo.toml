@@ -1,7 +1,7 @@
 baseURL = 'https://ramsescruz0.github.io/'
 languageCode = 'en-us'
 languageName = 'English'
-theme = 'FlagPlant'
+theme = 'LoveIt'
 title = 'Ramsés Cruz'
 copyright = '🄯 2026 Ramsés Cruz'
 configDir = 'config'
