@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
 
 permissions:
@@ -55,7 +55,7 @@ jobs:
 
       - name: Validate Output
         run: |
-          htmlproofer ./exampleSite/public \
+          htmlproofer ./ramsescruz0.github.io/public \
             --disable-external \
             --ignore-missing-alt \
             --no-enforce-https
