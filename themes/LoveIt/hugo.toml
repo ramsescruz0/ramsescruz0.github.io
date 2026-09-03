@@ -138,7 +138,7 @@
       disclaimer = ""
     # Home page posts
     [params.home.posts]
-      enable = true
+      enable = false
       # special amount of posts in each home posts page
       paginate = 6
   # Social config in home page
@@ -153,7 +153,7 @@
     Codepen = ""
     Deviantart = ""
     Devto = ""
-    Discord = ""
+    Discord = "978997551984431144"
     DiscordInvite = ""
     Douban = ""
     Dribbble = ""
@@ -167,7 +167,7 @@
     Gitlab = ""
     Goodreads = ""
     Googlescholar = ""
-    Hackernews = ""
+    Hackernews = "https://news.ycombinator.com/user?id=ramsescruz0"
     HackTheBox = ""
     HuggingFace = ""
     Instagram = ""
@@ -187,7 +187,7 @@
     Odnoklassniki = ""
     ORCID = ""
     Patreon = ""
-    Paypal = ""
+    Paypal = "ramsescruz0"
     Pinterest = ""
     Pleroma = ""
     Plume = ""
@@ -294,13 +294,13 @@
       fullscreen = true
     # Social share links in post page
     [params.page.share]
-      enable = false
+      enable = true
       Baidu = false
       Blogger = false
       Buffer = false
       Diaspora = false
       Evernote = false
-      Facebook = false
+      Facebook = true
       Flipboard = false
       HackerNews = false
       Instapaper = false
@@ -310,17 +310,17 @@
       Odnoklassniki = false
       Pinterest = false
       Pocket = false
-      Reddit = false
+      Reddit = true
       Skype = false
-      Telegram = false
+      Telegram = true
       Threads = false
       Trello = false
       Tumblr = false
       VK = false
       Weibo = false
-      Whatsapp = false
+      Whatsapp = true
       Xing = false
-      X = false
+      X = true
     # Comment config
     [params.page.comment]
       enable = false
@@ -406,13 +406,13 @@
         lightTheme = "light"
         darkTheme = "dark"
     # Third-party library config
-    [params.page.library]
-      [params.page.library.css]
+    #[params.page.library]
+    #  [params.page.library.css]
         # someCSS = "some.css"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
-      [params.page.library.js]
+    #  [params.page.library.js]
         # someJavascript = "some.js"
         # located in "assets/" "assets/"
         # Or
@@ -460,16 +460,16 @@
       # whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
     # Fathom Analytics
-    [params.analytics.fathom]
-      id = ""
+    #[params.analytics.fathom]
+    #  id = ""
       # server url for your tracker if you're self hosting
-      server = ""
+    #  server = ""
     # Plausible Analytics
-    [params.analytics.plausible]
-      dataDomain = ""
+    #[params.analytics.plausible]
+    #  dataDomain = ""
     # Yandex Metrica
-    [params.analytics.yandexMetrica]
-      id = ""
+    #[params.analytics.yandexMetrica]
+    #  id = ""
 
   # Cookie consent config
   [params.cookieconsent]
@@ -481,13 +481,13 @@
       link = ""
 
   # CDN config for third-party library files
-  [params.cdn]
+  #[params.cdn]
     # CDN data file name, disabled by default
     # ["jsdelivr.yml"]
     # located in "themes/LoveIt/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
-    data = "jsdelivr.yml"
+    #data = "jsdelivr.yml"
 
   # Compatibility config
   [params.compatibility]
