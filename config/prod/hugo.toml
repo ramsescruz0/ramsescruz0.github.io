@@ -13,4 +13,7 @@ environment = 'production'
       # whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
 
+[privacy]
+  [privacy.googleanalytics]
+    respectdonottrack = false
 

@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Define tool versions
-      DART_SASS_VERSION: 1.102.0
+      DART_SASS_VERSION: 1.103.1
       GO_VERSION: 1.26.5
       HUGO_VERSION: 0.165.0
       NODE_VERSION: 24.19.0
@@ -119,7 +119,9 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/.cache/hugo"
+            --cacheDir "${{ runner.temp }}/.cache/hugo" \
+            --cleanDestinationDir \
+            --forceSyncStatic 
 
       - name: Cache save
         uses: actions/cache/save@v6
