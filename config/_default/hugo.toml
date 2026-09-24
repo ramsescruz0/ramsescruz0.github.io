@@ -78,7 +78,7 @@ configDir = "config"
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/ramsescruz0/ramsescruz0.github.io.git"
+  gitRepo = "https://github.com/ramsescruz0/ramsescruz0.github.io"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = "sha256"
@@ -94,8 +94,8 @@ configDir = "config"
   # Author config
   [params.author]
     name = "Ramsés Cruz"
-    email = ""
-    link = ""
+    email = "ramses.cruz@messaging.8shield.net"
+    link = "https://ramsescruz0.github.io"
 
   # Header config
   [params.header]
@@ -289,12 +289,12 @@ configDir = "config"
     Wordpress = ""
     X = "ramsescruz0"
     Xing = ""
-    Youtubechannel = ""
+    Youtubechannel = "@ramsescruz0"
     Youtubecustom = ""
     Youtubelegacy = ""
     Zhihu = ""
-    Email = ""
     Phone = ""
+    Email = "ramsescruz0@messaging.8shield.net"
     RSS = ""
     XMPP = ""
 
