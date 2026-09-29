@@ -4,7 +4,7 @@ environment = 'production'
   [services.googleAnalytics]
     ID = 'G-83ELTHH8L1'
     
-  # Analytics config
+# Analytics config
 [params]
   [params.analytics]
     # Google Analytics
@@ -16,4 +16,3 @@ environment = 'production'
 [privacy]
   [privacy.googleanalytics]
     respectdonottrack = false
-

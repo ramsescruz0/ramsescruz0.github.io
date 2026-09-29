@@ -1,5 +1,5 @@
 baseURL = "http://127.0.0.1/"
-locale = "en-us"
+locale = "en-US"
 theme = "LoveIt"
 title = "Ramsés Cruz"
 hasCJKLanguage = false
@@ -9,12 +9,6 @@ enableGitInfo = true
 enableEmoji = true
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 configDir = "config"
-
-# Pagination config
-[pagination]
-  disableAliases = false
-  pagerSize = 10
-  path = "page"
 
 # Menu config
 [menu]
@@ -57,6 +51,12 @@ configDir = "config"
 #    url = "/categories/"
 #    title = ""
 
+# Pagination config
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "page"
+
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
@@ -72,7 +72,6 @@ configDir = "config"
   disable = false
   filename = "sitemap.xml"
   priority = -1
-
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -567,3 +566,9 @@ configDir = "config"
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
+    
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
