@@ -63,7 +63,7 @@ configDir = "config"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
-    
+   
 [caches]
   [caches.images]
     dir = ":cacheDir/images"
@@ -566,9 +566,3 @@ configDir = "config"
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
-    
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
