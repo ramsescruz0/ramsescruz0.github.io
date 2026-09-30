@@ -4,7 +4,7 @@ theme = "LoveIt"
 title = "Ramsés Cruz"
 hasCJKLanguage = false
 copyright = "🄯 2026 Ramsés Cruz"
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableGitInfo = true
 enableEmoji = true
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
@@ -23,33 +23,33 @@ configDir = "config"
     url = "/about/"
     # title will be shown when you hover on this menu link
     title = ""
-#  [[menu.main]]
-#    weight = 2
-#    identifier = "posts"
-#    # you can add extra information before the name (HTML format is supported), such as icons
-#    pre = ""
-#    # you can add extra information after the name (HTML format is supported), such as icons
-#    post = ""
-#    name = "Posts"
-#    url = "/posts/"
-#    # title will be shown when you hover on this menu link
-#    title = ""
-#  [[menu.main]]
-#    weight = 3
-#    identifier = "tags"
-#    pre = ""
-#    post = ""
-#    name = "Tags"
-#    url = "/tags/"
-#    title = ""
-#  [[menu.main]]
-#    weight = 4
-#    identifier = "categories"
-#    pre = ""
-#    post = ""
-#    name = "Categories"
-#    url = "/categories/"
-#    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
 
 # Pagination config
 [pagination]
@@ -67,11 +67,12 @@ configDir = "config"
 [caches]
   [caches.images]
     dir = ":cacheDir/images"
+
 [sitemap]
-  changeFreq = ""
+  changeFreq = "daily"
   disable = false
   filename = "sitemap.xml"
-  priority = -1
+  priority = 1
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -152,7 +153,7 @@ configDir = "config"
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = ""
+    title = "@ramsescruz0"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -200,7 +201,7 @@ configDir = "config"
       # title shown in home page (HTML format is supported)
       title = "Ramsés Cruz"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Thank you for visiting."
+      subtitle = "When you're ready, I want to help make privacy practical for you instead of theoretical"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
