@@ -94,7 +94,7 @@ configDir = "config"
   # Author config
   [params.author]
     name = "Ramsés Cruz"
-    email = "ramses.cruz@messaging.8shield.net"
+#    email = "ramses.cruz@messaging.8shield.net"
     link = "https://ramsescruz0.github.io"
 
   # Header config
@@ -264,7 +264,7 @@ configDir = "config"
     Pleroma = ""
     Plume = ""
     Quora = ""
-    Reddit = "ramsescruz0"
+    Reddit = ""
     Researchgate = ""
     RootMe = ""
     Skype = ""
@@ -294,7 +294,7 @@ configDir = "config"
     Youtubelegacy = ""
     Zhihu = ""
     Phone = ""
-    Email = "ramsescruz0@messaging.8shield.net"
+#    Email = "ramsescruz0@messaging.8shield.net"
     RSS = ""
     XMPP = ""
 
