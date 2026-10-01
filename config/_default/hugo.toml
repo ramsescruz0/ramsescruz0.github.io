@@ -22,34 +22,34 @@ configDir = "config"
     name = "About"
     url = "/about/"
     # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    weight = 2
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 4
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    title = "about Ramsés Cruz"
+#  [[menu.main]]
+#    weight = 2
+#    identifier = "posts"
+#    # you can add extra information before the name (HTML format is supported), such as icons
+#    pre = ""
+#    # you can add extra information after the name (HTML format is supported), such as icons
+#    post = ""
+#    name = "Posts"
+#    url = "/posts/"
+#    # title will be shown when you hover on this menu link
+#    title = ""
+#  [[menu.main]]
+#    weight = 3
+#    identifier = "tags"
+#    pre = ""
+#    post = ""
+#    name = "Tags"
+#    url = "/tags/"
+#    title = ""
+#  [[menu.main]]
+#    weight = 4
+#    identifier = "categories"
+#    pre = ""
+#    post = ""
+#    name = "Categories"
+#    url = "/categories/"
+#    title = ""
 
 # Pagination config
 [pagination]
@@ -91,10 +91,38 @@ configDir = "config"
   # website images for Open Graph and Twitter Cards
   images = []
 
+  [params.seo]
+    # image URL
+    image = ""
+    # thumbnail URL
+    thumbnailUrl = ""
+
+  # LoveIt NEW | 0.2.0 Analytics config
+  [params.analytics]
+    # LoveIt DELETED | 0.3.1
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-83ELTHH8L1"
+      # LoveIt DELETED | 0.3.1 whether to anonymize IP
+      anonymizeIP = false
+      # LoveIt NEW | 0.3.1 whether to respect the browser’s “do not track” setting
+      respectDoNotTrack = false
+    #[params.analytics.fathom]
+    #  id = ""
+    # server url for your tracker if you're self hosting
+    #  server = ""
+    # Plausible Analytics
+    #[params.analytics.plausible]
+    #  dataDomain = ""
+    # Yandex Metrica
+    #[params.analytics.yandexMetrica]
+    #  id = ""
+
   # Author config
   [params.author]
     name = "Ramsés Cruz"
-#    email = "ramses.cruz@messaging.8shield.net"
+    email = "ramsescruz0@messaging.8shield.net"
     link = "https://ramsescruz0.github.io"
 
   # Header config
@@ -294,7 +322,7 @@ configDir = "config"
     Youtubelegacy = ""
     Zhihu = ""
     Phone = ""
-#    Email = "ramsescruz0@messaging.8shield.net"
+    Email = "ramsescruz0@messaging.8shield.net" 
     RSS = ""
     XMPP = ""
 
@@ -370,18 +398,18 @@ configDir = "config"
       Baidu = false
       Blogger = false
       Buffer = false
-      Diaspora = false
-      Evernote = false
+      Diaspora = true
+      Evernote = true
       Facebook = true
       Flipboard = false
-      HackerNews = false
+      HackerNews = true
       Instapaper = false
-      Line = false
+      Line = true
       Linkedin = true
       Mix = false
       Odnoklassniki = false
       Pinterest = false
-      Pocket = false
+      Pocket = true
       Reddit = true
       Skype = false
       Telegram = true
@@ -489,6 +517,7 @@ configDir = "config"
         # located in "assets/" "assets/"
         # Or
         # someJavascript = "https://cdn.example.com/some.js"
+
     # Page SEO config
     [params.page.seo]
       # image URL
@@ -516,32 +545,6 @@ configDir = "config"
     yandex = ""
     pinterest = ""
     baidu = ""
-
-  # Site SEO config
-  [params.seo]
-    # image URL
-    image = ""
-    # thumbnail URL
-    thumbnailUrl = ""
-
-  # Analytics config
-  [params.analytics]
-    # Google Analytics
-    [params.analytics.google]
-      id = "G-83ELTHH8L1"
-      # whether to respect the browser’s “do not track” setting
-      respectDoNotTrack = false
-    # Fathom Analytics
-    #[params.analytics.fathom]
-    #  id = ""
-      # server url for your tracker if you're self hosting
-    #  server = ""
-    # Plausible Analytics
-    #[params.analytics.plausible]
-    #  dataDomain = ""
-    # Yandex Metrica
-    #[params.analytics.yandexMetrica]
-    #  id = ""
 
   # Cookie consent config
   [params.cookieconsent]

@@ -1,4 +1,9 @@
 environment = 'production'
+baseURL = '/'
+
+[privacy]
+  [privacy.googleanalytics]
+    respectdonottrack = false
 
 [services]
   [services.googleAnalytics]
@@ -12,7 +17,3 @@ environment = 'production'
       id = "G-83ELTHH8L1"
       # whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
-
-[privacy]
-  [privacy.googleanalytics]
-    respectdonottrack = false
