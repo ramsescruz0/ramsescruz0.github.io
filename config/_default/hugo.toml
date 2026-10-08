@@ -1,61 +1,78 @@
-baseURL = "http://127.0.0.1/"
-locale = "en-US"
-theme = "LoveIt"
-title = "Ramsés Cruz"
+configDir = 'config'
+capitalizelisttitles = true
+contentdir = 'content'
+copyright = '🄯 2026 Ramsés Cruz'
+defaultcontentlanguage = 'en'
+defaultcontentrole = 'guest'
+defaultoutputformat = 'html'
+enableemoji = true
+enablegitinfo = true
 hasCJKLanguage = false
-copyright = "🄯 2026 Ramsés Cruz"
-enableRobotsTXT = false
-enableGitInfo = true
-enableEmoji = true
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
-configDir = "config"
+i18ndir = ''
+ignorelogs = ['error-remote-getjson', 'error-missing-instagram-accesstoken']
+locale = 'en-US'
+pluralizelisttitles = true
+summarylength = 70
+theme = 'LoveIt'
+timeout = '60s'
+title = 'Ramsés Cruz'
+titlecasestyle = 'AP'
+
+[author]
+  email = 'ramsescruz0@messaging.8shield.net'
+  link = 'https://ramsescruz0.github.io'
+  name = 'Ramsés Cruz'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # Menu config
 [menu]
   [[menu.main]]
     weight = 1
-    identifier = "about"
+    identifier = 'about'
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
+    pre = ''
     # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "About"
-    url = "/about/"
+    post = ''
+    name = 'About'
+    url = '/about/'
     # title will be shown when you hover on this menu link
-    title = "about Ramsés Cruz"
-#  [[menu.main]]
-#    weight = 2
-#    identifier = "posts"
-#    # you can add extra information before the name (HTML format is supported), such as icons
-#    pre = ""
-#    # you can add extra information after the name (HTML format is supported), such as icons
-#    post = ""
-#    name = "Posts"
-#    url = "/posts/"
-#    # title will be shown when you hover on this menu link
-#    title = ""
-#  [[menu.main]]
-#    weight = 3
-#    identifier = "tags"
-#    pre = ""
-#    post = ""
-#    name = "Tags"
-#    url = "/tags/"
-#    title = ""
+    title = 'About: a bit more about Ramsés Cruz'
+  [[menu.main]]
+    weight = 2
+    identifier = 'posts'
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ''
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ''
+    name = 'Posts'
+    url = '/posts/'
+    # title will be shown when you hover on this menu link
+    title = 'Posts: messages, articles, announcements, tutorials, more'
+  [[menu.main]]
+    weight = 3
+    identifier = 'tags'
+    pre = ''
+    post = ''
+    name = 'Tags'
+    url = '/tags/'
+    title = 'Tags: searchable keywords indicating something about the subject matter'
 #  [[menu.main]]
 #    weight = 4
-#    identifier = "categories"
-#    pre = ""
-#    post = ""
-#    name = "Categories"
-#    url = "/categories/"
-#    title = ""
+#    identifier = 'categories'
+#    pre = ''
+#    post = ''
+#    name = 'Categories'
+#    url = '/categories/'
+#    title = ''
 
 # Pagination config
 [pagination]
   disableAliases = false
   pagerSize = 10
-  path = "page"
+  path = 'page'
 
 # Markup related configuration in Hugo
 [markup]
@@ -64,38 +81,34 @@ configDir = "config"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
    
-[caches]
-  [caches.images]
-    dir = ":cacheDir/images"
-
 [sitemap]
-  changeFreq = "daily"
+  changeFreq = 'daily'
   disable = false
-  filename = "sitemap.xml"
+  filename = 'sitemap.xml'
   priority = 1
 
 [params]
-  # site default theme ["auto", "light", "dark"]
-  defaultTheme = "dark"
+  # site default theme ['auto', 'light', 'dark']
+  defaultTheme = 'dark'
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/ramsescruz0/ramsescruz0.github.io"
+  gitRepo = 'https://github.com/ramsescruz0/ramsescruz0.github.io'
   # which hash function used for SRI, when empty, no SRI is used
-  # ["sha256", "sha384", "sha512", "md5"]
-  fingerprint = "sha256"
+  # ['sha256', 'sha384', 'sha512', 'md5']
+  fingerprint = 'sha256'
   # date format
-  dateFormat = "2006-01-02"
+  dateFormat = '2006-01-02'
   # website title for Open Graph and Twitter Cards
-  title = "Ramsés Cruz"
+  title = 'Ramsés Cruz'
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Connect with Ramsés Cruz, an IT professional passionate about building secure and efficient systems. Watch this space for insights on Linux system administration, security best practices, and digital privacy."
+  description = 'Connect with Ramsés Cruz, an IT professional passionate about building secure and efficient systems. Watch this space for insights on Linux system administration, security best practices, and digital privacy.'
   # website images for Open Graph and Twitter Cards
   images = []
 
   [params.seo]
     # image URL
-    image = ""
+    image = ''
     # thumbnail URL
-    thumbnailUrl = ""
+    thumbnailUrl = ''
 
   # LoveIt NEW | 0.2.0 Analytics config
   [params.analytics]
@@ -103,44 +116,44 @@ configDir = "config"
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = "G-83ELTHH8L1"
+      id = 'G-83ELTHH8L1'
       # LoveIt DELETED | 0.3.1 whether to anonymize IP
       anonymizeIP = false
       # LoveIt NEW | 0.3.1 whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
     #[params.analytics.fathom]
-    #  id = ""
+    #  id = ''
     # server url for your tracker if you're self hosting
-    #  server = ""
+    #  server = ''
     # Plausible Analytics
     #[params.analytics.plausible]
-    #  dataDomain = ""
+    #  dataDomain = ''
     # Yandex Metrica
     #[params.analytics.yandexMetrica]
-    #  id = ""
+    #  id = ''
 
   # Author config
   [params.author]
-    name = "Ramsés Cruz"
-    email = "ramsescruz0@messaging.8shield.net"
-    link = "https://ramsescruz0.github.io"
+    name = 'Ramsés Cruz'
+    email = 'ramsescruz0@messaging.8shield.net'
+    link = 'https://ramsescruz0.github.io'
 
   # Header config
   [params.header]
-    # desktop header mode ["fixed", "normal", "auto"]
-    desktopMode = "fixed"
-    # mobile header mode ["fixed", "normal", "auto"]
-    mobileMode = "auto"
+    # desktop header mode ['fixed', 'normal', 'auto']
+    desktopMode = 'fixed'
+    # mobile header mode ['fixed', 'normal', 'auto']
+    mobileMode = 'auto'
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = ''
       # title name
-      name = "Ramsés Cruz"
+      name = 'Ramsés Cruz'
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = ""
+      pre = ''
       # you can add extra information after the name (HTML format is supported), such as icons
-      post = ""
+      post = ''
       # whether to use typeit animation for title name
       typeit = false
 
@@ -148,24 +161,24 @@ configDir = "config"
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = "🄯 2026 Ramsés Cruz"
+    custom = '🄯 2026 Ramsés Cruz'
     # whether to show Hugo and theme info
-    hugo = false
+    hugo = true
     # whether to show copyright info
     copyright = false
     # whether to show the author
-    author = true
+    author = false
     # site creation time
     since = 2026
     # license info (HTML format is supported)
-    license= ""
+    license= ''
 
   # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = '01-02'
     # amount of RSS pages
     rss = 10
 
@@ -174,46 +187,46 @@ configDir = "config"
     # special amount of posts in each list page
     paginate = 20
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = '01-02'
     # amount of RSS pages
     rss = 10
 
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "@ramsescruz0"
+    title = '@ramsescruz0'
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
+    svgFavicon = ''
     # Android browser theme color
-    themeColor = "#ffffff"
+    themeColor = '#ffffff'
     # Safari mask icon color
-    iconColor = "#5bbad5"
+    iconColor = '#5bbad5'
     # Windows v8-11 tile color
-    tileColor = "#da532c"
+    tileColor = '#da532c'
 
   # Search config
   [params.search]
     enable = false
-    # type of search engine ["lunr", "algolia"]
-    type = "algolia"
+    # type of search engine ['lunr', 'algolia']
+    type = 'algolia'
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = ''
     # max number of results length
     maxResultLength = 10
     # snippet length of the result
     snippetLength = 30
     # HTML tag name of the highlight part in results
-    highlightTag = "em"
+    highlightTag = 'em'
     # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = ''
+      appID = ''
+      searchKey = ''
 
   # Home page config
   [params.home]
@@ -223,11 +236,11 @@ configDir = "config"
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "ramsescruz0@proton.me"
+      gravatarEmail = 'ramsescruz0@proton.me'
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = ''
       # title shown in home page (HTML format is supported)
-      title = "Ramsés Cruz"
+      title = 'Ramsés Cruz'
       # subtitle shown in home page (HTML format is supported)
       subtitle = "Let's talk about how we make privacy practical instead of theoretical"
       # whether to use typeit animation for subtitle
@@ -235,7 +248,7 @@ configDir = "config"
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = ''
     # Home page posts
     [params.home.posts]
       enable = false
@@ -243,88 +256,88 @@ configDir = "config"
       paginate = 6
   # Social config in home page
   [params.social]
-    Angellist = ""
-    Bandcamp = ""
-    Behance = ""
-    Bilibili = ""
-    Bitbucket = ""
-    BlueSky = "ramsescruz0.bsky.social"
-    Codeberg = ""
-    Codepen = ""
-    Deviantart = ""
-    Devto = ""
-    Discord = "ramsescruz0"
-    DiscordInvite = ""
-    Douban = ""
-    Dribbble = ""
-    Facebook = ""
-    Fivehundredpx = ""
-    Flickr = ""
-    Foursquare = ""
-    FreeCodeCamp = ""
-    Gitea = ""
-    GitHub = "ramsescruz0"
-    Gitlab = ""
-    Goodreads = ""
-    Googlescholar = ""
-    Hackernews = "ramsescruz0"
-    HackTheBox = ""
-    HuggingFace = ""
-    Instagram = ""
-    Jsfiddle = ""
-    Kaggle = ""
-    Keybase = "ramsescruz0"
-    Kickstarter = ""
-    Lastfm = ""
-    Lichess = ""
-    Linkedin = "ramsescruz0"
-    Malt = ""
-    Mastodon = "@ramsescruz0"
-    Matrix = "@ramsescruz0:matrix.org"
-    MediaWiki = ""
-    Medium = ""
-    Mix = ""
-    Odnoklassniki = ""
-    ORCID = ""
-    Patreon = ""
-    Paypal = "ramsescruz0"
-    Pinterest = ""
-    Pleroma = ""
-    Plume = ""
-    Quora = ""
-    Reddit = ""
-    Researchgate = ""
-    RootMe = ""
-    Skype = ""
-    Slidershare = ""
-    Snapchat = "ramsescruz0"
-    Soundcloud = "ramsescruz0"
-    Spotify = "ramsescg"
-    Stackoverflow = ""
-    Steam = "ramsescruz0"
-    Strava = ""
-    Telegram = "ramsescruz0"
-    Thingiverse = ""
-    Threads = ""
-    TikTok = ""
-    TryHackMe = ""
-    Tumblr = ""
-    Twitch = "ramsescruz0"
-    Vine = ""
-    VK = ""
-    Weibo = ""
-    Whatsapp = ""
-    Wordpress = ""
-    X = "ramsescruz0"
-    Xing = ""
-    Youtubechannel = "@ramsescruz0"
-    Youtubecustom = ""
-    Youtubelegacy = ""
-    Zhihu = ""
-    Phone = ""
-    Email = "ramsescruz0@messaging.8shield.net" 
-    RSS = ""
-    XMPP = ""
+    Angellist = ''
+    Bandcamp = ''
+    Behance = ''
+    Bilibili = ''
+    Bitbucket = ''
+    BlueSky = 'ramsescruz0.bsky.social'
+    Codeberg = ''
+    Codepen = ''
+    Deviantart = ''
+    Devto = ''
+    Discord = 'ramsescruz0'
+    DiscordInvite = ''
+    Douban = ''
+    Dribbble = ''
+    Facebook = ''
+    Fivehundredpx = ''
+    Flickr = ''
+    Foursquare = ''
+    FreeCodeCamp = ''
+    Gitea = ''
+    GitHub = 'ramsescruz0'
+    Gitlab = ''
+    Goodreads = ''
+    Googlescholar = ''
+    Hackernews = 'ramsescruz0'
+    HackTheBox = ''
+    HuggingFace = ''
+    Instagram = ''
+    Jsfiddle = ''
+    Kaggle = ''
+    Keybase = 'ramsescruz0'
+    Kickstarter = ''
+    Lastfm = ''
+    Lichess = ''
+    Linkedin = 'ramsescruz0'
+    Malt = ''
+    Mastodon = '@ramsescruz0'
+    Matrix = '@ramsescruz0:matrix.org'
+    MediaWiki = 'https://meta.wikimedia.org/wiki/User:Ramsescruz0'
+    Medium = ''
+    Mix = ''
+    Odnoklassniki = ''
+    ORCID = ''
+    Patreon = ''
+    Paypal = 'ramsescruz0'
+    Pinterest = 'ramsescruz0'
+    Pleroma = ''
+    Plume = ''
+    Quora = ''
+    Reddit = 'ramsescruz0'
+    Researchgate = ''
+    RootMe = ''
+    Skype = ''
+    Slidershare = ''
+    Snapchat = 'ramsescruz0'
+    Soundcloud = 'ramsescruz0'
+    Spotify = 'ramsescg'
+    Stackoverflow = ''
+    Steam = 'ramsescruz0'
+    Strava = ''
+    Telegram = 'ramsescruz0'
+    Thingiverse = ''
+    Threads = ''
+    TikTok = ''
+    TryHackMe = ''
+    Tumblr = ''
+    Twitch = 'ramsescruz0'
+    Vine = ''
+    VK = ''
+    Weibo = ''
+    Whatsapp = ''
+    Wordpress = ''
+    X = 'ramsescruz0'
+    Xing = ''
+    Youtubechannel = ''
+    Youtubecustom = '@ramsescruz0'
+    Youtubelegacy = ''
+    Zhihu = ''
+    Phone = ''
+    Email = '' 
+    RSS = ''
+    XMPP = ''
 
   # Page global config
   [params.page]
@@ -339,11 +352,11 @@ configDir = "config"
     # whether to enable the ruby extended syntax
     ruby = true
     # whether to enable the fraction extended syntax
-    fraction = true
+    fraction = false
     # whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     # whether to show the full text content in RSS
     rssFullText = false
     # Table of the contents config
@@ -367,11 +380,11 @@ configDir = "config"
     [params.page.math]
       enable = false
       # default inline delimiter is $ ... $ and \( ... \)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
+      inlineLeftDelimiter = ''
+      inlineRightDelimiter = ''
       # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
+      blockLeftDelimiter = ''
+      blockRightDelimiter = ''
       # KaTeX extension copy_tex
       copyTex = true
       # KaTeX extension mhchem
@@ -379,11 +392,11 @@ configDir = "config"
     # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS
-      accessToken = ""
+      accessToken = ''
       # style for the light theme
-      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      lightStyle = 'mapbox://styles/mapbox/light-v10?optimize=true'
       # style for the dark theme
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      darkStyle = 'mapbox://styles/mapbox/dark-v10?optimize=true'
       # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
       navigation = true
       # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
@@ -398,18 +411,18 @@ configDir = "config"
       Baidu = false
       Blogger = false
       Buffer = false
-      Diaspora = true
-      Evernote = true
+      Diaspora = false
+      Evernote = false
       Facebook = true
       Flipboard = false
       HackerNews = true
       Instapaper = false
-      Line = true
+      Line = false
       Linkedin = true
       Mix = false
       Odnoklassniki = false
       Pinterest = false
-      Pocket = true
+      Pocket = false
       Reddit = true
       Skype = false
       Telegram = true
@@ -423,56 +436,56 @@ configDir = "config"
       X = true
     # Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = ''
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        owner = ''
+        repo = ''
+        clientId = ''
+        clientSecret = ''
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
+        appId = ''
+        appKey = ''
+        placeholder = ''
+        avatar = ''
+        meta= ''
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty
-        lang = ""
+        lang = 'en'
         visitor = true
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = ""
-        # emoji data file name, default is "google.yml"
-        # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
+        serverURLs = ''
+        # emoji data file name, default is 'google.yml'
+        # ['apple.yml', 'google.yml', 'facebook.yml', 'twitter.yml']
+        # located in 'themes/LoveIt/assets/lib/valine/emoji/' directory
         # you can store your own data files in the same path under your project:
-        # "assets/lib/valine/emoji/"
-        emoji = ""
+        # 'assets/lib/valine/emoji/'
+        emoji = ''
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
         enable = false
-        width = "100%"
+        width = '100%'
         numPosts = 10
-        appId = ""
+        appId = ''
         # automatically adapt the current theme i18n configuration when empty
-        languageCode = ""
+        languageCode = 'en'
       # Telegram comments config (https://comments.app/)
       [params.page.comment.telegram]
         enable = false
-        siteID = ""
+        siteID = ''
         limit = 5
-        height = ""
-        color = ""
+        height = ''
+        color = ''
         colorful = true
         dislikes = false
         outlined = false
@@ -483,40 +496,40 @@ configDir = "config"
       [params.page.comment.utterances]
         enable = false
         # owner/repo
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
+        repo = ''
+        issueTerm = 'pathname'
+        label = ''
+        lightTheme = 'github-light'
+        darkTheme = 'github-dark'
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         enable = false
-        repo = ""
-        repoId = ""
-        category = "Announcements"
-        categoryId = ""
+        repo = ''
+        repoId = ''
+        category = 'Announcements'
+        categoryId = ''
         # automatically adapt the current theme i18n configuration when empty
-        lang = ""
-        mapping = "pathname"
-        reactionsEnabled = "1"
-        emitMetadata = "0"
-        inputPosition = "bottom"
+        lang = 'en'
+        mapping = 'pathname'
+        reactionsEnabled = '1'
+        emitMetadata = '0'
+        inputPosition = 'bottom'
         lazyLoading = false
-        lightTheme = "light"
-        darkTheme = "dark"
+        lightTheme = 'light'
+        darkTheme = 'dark'
     # Third-party library config
     #[params.page.library]
     #  [params.page.library.css]
-        # someCSS = "some.css"
-        # located in "assets/"
+        # someCSS = 'some.css'
+        # located in 'assets/'
         # Or
-        # someCSS = "https://cdn.example.com/some.css"
+        # someCSS = 'https://cdn.example.com/some.css'
     #  [params.page.library.js]
-        # someJavascript = "some.js"
-        # located in "assets/" "assets/"
+        # someJavascript = 'some.js'
+        # located in 'assets/' 'assets/'
         # Or
-        # someJavascript = "https://cdn.example.com/some.js"
+        # someJavascript = 'https://cdn.example.com/some.js'
 
     # Page SEO config
     [params.page.seo]
@@ -524,8 +537,8 @@ configDir = "config"
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = ''
+        logoUrl = ''
 
   # TypeIt config
   [params.typeit]
@@ -534,35 +547,35 @@ configDir = "config"
     # blinking speed of the cursor (measured in milliseconds)
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
-    cursorChar = "|"
-    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+    cursorChar = '|'
+    # cursor duration after typing finishing (measured in milliseconds, '-1' means unlimited)
     duration = -1
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "W9R18NhzsnC7l5JpCYYccp3VE5KD1IhOnqxQCzaTY8M"
-    bing = ""
-    yandex = ""
-    pinterest = ""
-    baidu = ""
+    google = 'W9R18NhzsnC7l5JpCYYccp3VE5KD1IhOnqxQCzaTY8M'
+    bing = ''
+    yandex = ''
+    pinterest = ''
+    baidu = ''
 
   # Cookie consent config
   [params.cookieconsent]
     enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
-      message = ""
-      dismiss = ""
-      link = ""
+      message = ''
+      dismiss = ''
+      link = ''
 
   # CDN config for third-party library files
   #[params.cdn]
     # CDN data file name, disabled by default
-    # ["jsdelivr.yml"]
-    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # ['jsdelivr.yml']
+    # located in 'themes/LoveIt/assets/data/cdn/' directory
     # you can store your own data files in the same path under your project:
-    # "assets/data/cdn/"
-    #data = "jsdelivr.yml"
+    # 'assets/data/cdn/'
+    #data = 'jsdelivr.yml'
 
   # Compatibility config
   [params.compatibility]
@@ -570,3 +583,29 @@ configDir = "config"
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
+    
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.x]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = false
+    
+[services]
+  [services.googleAnalytics]
+    ID = 'G-83ELTHH8L1'
+    

@@ -21,7 +21,7 @@ jobs:
       # Define tool versions
       DART_SASS_VERSION: 1.103.1
       GO_VERSION: 1.26.5
-      HUGO_VERSION: 0.165.0
+      HUGO_VERSION: 0.167.0
       # Set the build time zone
       TZ: Etc/GMT+7
     steps:

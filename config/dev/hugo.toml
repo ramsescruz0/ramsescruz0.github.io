@@ -1,3 +1,0 @@
-environment = "development"
-disableFastRender = "true"
-baseURL = 'http://127.0.0.1/'

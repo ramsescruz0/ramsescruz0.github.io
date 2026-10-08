@@ -1,0 +1,31 @@
+environment = 'production'
+baseURL = '/'
+
+[privacy]
+  [privacy.googleanalytics]
+    respectdonottrack = 'false'
+  [privacy.x]
+    disable = false
+    enableDNT = false
+    simple = false
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-83ELTHH8L1'
+  [services.x]
+    disableInlineCSS = false    
+
+# Analytics config
+[params]
+  [params.analytics]
+    # Google Analytics
+    [params.analytics.google]
+      id = 'G-83ELTHH8L1'
+      # whether to respect the browser’s “do not track” setting
+      respectDoNotTrack = 'false'
+  [params.privacy]
+    [params.privacy.googleanalytics]
+      respectdonottrack = 'false'
+  [params.social]
+    twitter = 'ramsescruz0'
+    facebook_app_id = ''
