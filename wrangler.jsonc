@@ -1,8 +1,8 @@
 {
   // Set this to the name of your project.
-  "name": "test",
+  "name": "ramsescruz0",
   // Set this to today's date in YYYY-MM-DD format.
-  "compatibility_date": "2026-06-19",
+  "compatibility_date": "2026-10-21",
   "build": {
     "command": "chmod a+x build.sh && ./build.sh"
   },
