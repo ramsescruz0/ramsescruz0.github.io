@@ -58,14 +58,18 @@ main() {
     export PATH="${HOME}/.local/go/bin:${PATH}"
   fi
 
-  # Install Hugo
-  echo "Installing Hugo ${HUGO_VERSION}..."
-  curl -sfL --output-dir "${build_temp_dir}" -O "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+# Install Hugo
+  # Cloudflare sets HUGO_VERSION as "extended_0.168.0" (extended marker baked in),
+  # so strip the marker before interpolating into the tag/asset path.
+  hugo_version="${HUGO_VERSION#extended_}"
+  echo "Installing Hugo extended ${hugo_version}..."
+  curl -sfSL --output-dir "${build_temp_dir}" -O \
+    "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_linux-amd64.tar.gz"
   mkdir -p "${HOME}/.local/hugo"
-  tar -C "${HOME}/.local/hugo" -xf "${build_temp_dir}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+  tar -C "${HOME}/.local/hugo" -xf "${build_temp_dir}/hugo_extended_${hugo_version}_linux-amd64.tar.gz"
   export PATH="${HOME}/.local/hugo:${PATH}"
-
-  # Install Node.js
+  
+# Install Node.js
   if [[ -f "package-lock.json" ]]; then
     echo "Installing Node.js ${NODE_VERSION}..."
     curl -sfL --output-dir "${build_temp_dir}" -O "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.gz"
