@@ -108,7 +108,7 @@ main() {
 
   # Build the project
   echo "Building the project..."
-  hugo build -b $CF_PAGES_URL --gc --minify --cleanDestinationDir --forceSyncStatic
+  hugo build --gc --minify --cleanDestinationDir --forceSyncStatic
 }
 
 main "$@"
