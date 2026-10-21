@@ -20,7 +20,7 @@ titlecasestyle = 'AP'
 
 [author]
   email = 'ramsescruz0@messaging.8shield.net'
-  link = 'https://ramsescruz0.github.io'
+  link = 'https://ramsescruz0.net'
   name = 'Ramsés Cruz'
 
 [caches]
@@ -136,7 +136,7 @@ titlecasestyle = 'AP'
   [params.author]
     name = 'Ramsés Cruz'
     email = 'ramsescruz0@messaging.8shield.net'
-    link = 'https://ramsescruz0.github.io'
+    link = 'https://ramsescruz0.net'
 
   # Header config
   [params.header]
@@ -335,7 +335,7 @@ titlecasestyle = 'AP'
     Youtubelegacy = ''
     Zhihu = ''
     Phone = ''
-    Email = '' 
+    Email = 'ramsescruz0@messaging.8shield.net' 
     RSS = ''
     XMPP = ''
 
