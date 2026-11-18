@@ -1,7 +1,7 @@
+baseURL = 'https://ramsescruz0.net'
 configDir = 'config'
 capitalizelisttitles = true
 contentdir = 'content'
-copyright = '🄯 2026 Ramsés Cruz'
 defaultcontentlanguage = 'en'
 defaultcontentrole = 'guest'
 defaultoutputformat = 'html'
@@ -162,7 +162,7 @@ titlecasestyle = 'AP'
     # whether to show copyright info
     copyright = true
     # whether to show the author
-    author = trur
+    author = true
     # site creation time
     since = 2026
     # license info (HTML format is supported)
