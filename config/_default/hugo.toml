@@ -18,11 +18,6 @@ timeout = '60s'
 title = 'Ramsés Cruz'
 titlecasestyle = 'AP'
 
-[author]
-  email = 'ramsescruz0@messaging.8shield.net'
-  link = 'https://ramsescruz0.net'
-  name = 'Ramsés Cruz'
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -51,14 +46,14 @@ titlecasestyle = 'AP'
     url = '/posts/'
     # title will be shown when you hover on this menu link
     title = 'Posts: messages, articles, announcements, tutorials, more'
-  [[menu.main]]
-    weight = 3
-    identifier = 'tags'
-    pre = ''
-    post = ''
-    name = 'Tags'
-    url = '/tags/'
-    title = 'Tags: searchable keywords indicating something about the subject matter'
+#  [[menu.main]]
+#    weight = 3
+#    identifier = 'tags'
+#    pre = ''
+#    post = ''
+#    name = 'Tags'
+#    url = '/tags/'
+#    title = 'Tags: searchable keywords indicating something about the subject matter'
 #  [[menu.main]]
 #    weight = 4
 #    identifier = 'categories'
@@ -82,14 +77,14 @@ titlecasestyle = 'AP'
     noClasses = false
    
 [sitemap]
-  changeFreq = 'daily'
+  changeFreq = 'weekly'
   disable = false
   filename = 'sitemap.xml'
   priority = 1
 
 [params]
   # site default theme ['auto', 'light', 'dark']
-  defaultTheme = 'dark'
+  defaultTheme = 'auto'
   # public git repo url only then enableGitInfo is true
   gitRepo = 'https://github.com/ramsescruz0/ramsescruz0.github.io'
   # which hash function used for SRI, when empty, no SRI is used
@@ -135,7 +130,7 @@ titlecasestyle = 'AP'
   # Author config
   [params.author]
     name = 'Ramsés Cruz'
-    email = 'ramsescruz0@messaging.8shield.net'
+    email = ''
     link = 'https://ramsescruz0.net'
 
   # Header config
@@ -161,13 +156,13 @@ titlecasestyle = 'AP'
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = '🄯 2026 Ramsés Cruz'
+    #custom = '🄯 2026 Ramsés Cruz'
     # whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     # whether to show copyright info
-    copyright = false
+    copyright = true
     # whether to show the author
-    author = false
+    author = trur
     # site creation time
     since = 2026
     # license info (HTML format is supported)
@@ -236,7 +231,7 @@ titlecasestyle = 'AP'
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = 'ramsescruz0@proton.me'
+      #gravatarEmail = 'ramsescruz0@proton.me'
       # URL of avatar shown in home page
       avatarURL = ''
       # title shown in home page (HTML format is supported)
@@ -266,7 +261,7 @@ titlecasestyle = 'AP'
     Codepen = ''
     Deviantart = ''
     Devto = ''
-    Discord = 'ramsescruz0'
+#    Discord = 'ramsescruz0'
     DiscordInvite = ''
     Douban = ''
     Dribbble = ''
@@ -280,7 +275,7 @@ titlecasestyle = 'AP'
     Gitlab = ''
     Goodreads = ''
     Googlescholar = ''
-    Hackernews = 'ramsescruz0'
+#    Hackernews = 'ramsescruz0'
     HackTheBox = ''
     HuggingFace = ''
     Instagram = ''
@@ -294,14 +289,14 @@ titlecasestyle = 'AP'
     Malt = ''
     Mastodon = '@ramsescruz0'
     Matrix = '@ramsescruz0:matrix.org'
-    MediaWiki = 'https://meta.wikimedia.org/wiki/User:Ramsescruz0'
+#    MediaWiki = 'https://meta.wikimedia.org/wiki/User:Ramsescruz0'
     Medium = ''
     Mix = ''
     Odnoklassniki = ''
     ORCID = ''
     Patreon = ''
-    Paypal = 'ramsescruz0'
-    Pinterest = 'ramsescruz0'
+#    Paypal = 'ramsescruz0'
+#    Pinterest = 'ramsescruz0'
     Pleroma = ''
     Plume = ''
     Quora = ''
@@ -310,19 +305,19 @@ titlecasestyle = 'AP'
     RootMe = ''
     Skype = ''
     Slidershare = ''
-    Snapchat = 'ramsescruz0'
-    Soundcloud = 'ramsescruz0'
-    Spotify = 'ramsescg'
+#    Snapchat = 'ramsescruz0'
+#    Soundcloud = 'ramsescruz0'
+#    Spotify = 'ramsescg'
     Stackoverflow = ''
-    Steam = 'ramsescruz0'
+#    Steam = 'ramsescruz0'
     Strava = ''
-    Telegram = 'ramsescruz0'
+#    Telegram = 'ramsescruz0'
     Thingiverse = ''
     Threads = ''
     TikTok = ''
     TryHackMe = ''
     Tumblr = ''
-    Twitch = 'ramsescruz0'
+#    Twitch = 'ramsescruz0'
     Vine = ''
     VK = ''
     Weibo = ''
@@ -331,11 +326,11 @@ titlecasestyle = 'AP'
     X = 'ramsescruz0'
     Xing = ''
     Youtubechannel = ''
-    Youtubecustom = '@ramsescruz0'
+#    Youtubecustom = '@ramsescruz0'
     Youtubelegacy = ''
     Zhihu = ''
     Phone = ''
-    Email = 'ramsescruz0@messaging.8shield.net' 
+    Email = '' 
     RSS = ''
     XMPP = ''
 
@@ -413,9 +408,9 @@ titlecasestyle = 'AP'
       Buffer = false
       Diaspora = false
       Evernote = false
-      Facebook = true
+      Facebook = false
       Flipboard = false
-      HackerNews = true
+      HackerNews = false
       Instapaper = false
       Line = false
       Linkedin = true
@@ -425,7 +420,7 @@ titlecasestyle = 'AP'
       Pocket = false
       Reddit = true
       Skype = false
-      Telegram = true
+      Telegram = false
       Threads = false
       Trello = false
       Tumblr = false
@@ -537,7 +532,7 @@ titlecasestyle = 'AP'
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ''
+        name = 'Ramsés Cruz'
         logoUrl = ''
 
   # TypeIt config
@@ -554,7 +549,7 @@ titlecasestyle = 'AP'
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
     google = 'W9R18NhzsnC7l5JpCYYccp3VE5KD1IhOnqxQCzaTY8M'
-    bing = ''
+    bing = 'F8BDCAF32ABF6F73B79DF66336614E47'
     yandex = ''
     pinterest = ''
     baidu = ''
@@ -598,7 +593,7 @@ titlecasestyle = 'AP'
     enableDNT = false
     simple = false
   [privacy.x]
-    disable = false
+    disable = true
     enableDNT = false
     simple = false
   [privacy.youTube]
