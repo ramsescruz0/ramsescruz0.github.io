@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://ramsescruz0.net/'
 configDir = 'config'
 capitalizelisttitles = true
 contentdir = 'content'
@@ -10,7 +10,7 @@ enablegitinfo = true
 hasCJKLanguage = false
 i18ndir = ''
 ignorelogs = ['error-remote-getjson', 'error-missing-instagram-accesstoken']
-locale = 'en-US'
+locale = 'en_US'
 pluralizelisttitles = true
 summarylength = 70
 theme = 'LoveIt'

@@ -1,10 +1,11 @@
 +++
 date = '2026-10-01T04:33:01-07:00'
+lastmod = '2026-11-18T20:05:01-07:00'
 draft = false
 title = 'About'
 description = "About Ramsés Cruz"
 +++
-
+## About Me
 
 I’m a **Linux-first technologist** with a longstanding interest in **privacy, security, open source, and digital autonomy**.
 
@@ -16,9 +17,13 @@ Outside of work, I’m a **lifelong learner, habitual overthinker, word nerd, an
 
 I’m interested in technology, learning more each day about the natural world, big ideas, writing, and the strange corners of the internet that have a habit of consuming an unreasonable amount of my attention.
 
-> **Depth over spectacle.**  
-> **Meaningful connection over performance.**  
-> **Signal over noise.**
+{{< admonition type=quote title="A few guiding principles" open=true >}}
+**Depth over spectacle.**
+
+**Meaningful connection over performance.**
+
+**Signal over noise.**
+{{< /admonition >}}
 
 This site is still a work in progress.
 
