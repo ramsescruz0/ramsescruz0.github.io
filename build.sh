@@ -12,11 +12,11 @@ set -euo pipefail
 # set in  cf worker project config
 #DART_SASS_VERSION=1.103.1
 #GO_VERSION=1.27.2
-HUGO_VERSION=0.170.1
+#HUGO_VERSION=0.170.1
 #NODE_VERSION=24.21.0
 
 # Set the build time zone
-TZ=Etc/GMT-7
+TZ=Etc/GMT+7
 
 # Set the build cache directory
 HUGO_CACHEDIR="${PWD}/.cache/hugo"

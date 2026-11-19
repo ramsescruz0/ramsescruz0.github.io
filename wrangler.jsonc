@@ -9,10 +9,7 @@
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
-  }
-}
-
-{
+  },
   // ...
   "observability": {
     "logs": {
@@ -20,7 +17,5 @@
       "invocation_logs": true,
       "persist": true
     }
-  },
-  // ...
+  }
 }
-

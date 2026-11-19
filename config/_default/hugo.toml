@@ -1,4 +1,4 @@
-baseURL = 'https://ramsescruz0.net'
+baseURL = '/'
 configDir = 'config'
 capitalizelisttitles = true
 contentdir = 'content'

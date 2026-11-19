@@ -1,5 +1,5 @@
 environment = 'production'
-baseURL = '/'
+baseURL = 'https://ramsescruz0.net/'
 
 [privacy]
   [privacy.googleanalytics]
@@ -27,5 +27,5 @@ baseURL = '/'
     [params.privacy.googleanalytics]
       respectdonottrack = 'false'
   [params.social]
-    twitter = 'ramsescruz0'
+#    twitter = 'ramsescruz0'
     facebook_app_id = ''
