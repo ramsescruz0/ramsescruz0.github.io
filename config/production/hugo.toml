@@ -11,7 +11,7 @@ baseURL = 'https://ramsescruz0.net/'
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-83ELTHH8L1'
+#    ID = 'G-83ELTHH8L1'
   [services.x]
     disableInlineCSS = false    
 
@@ -20,7 +20,7 @@ baseURL = 'https://ramsescruz0.net/'
   [params.analytics]
     # Google Analytics
     [params.analytics.google]
-      id = 'G-83ELTHH8L1'
+#      id = 'G-83ELTHH8L1'
       # whether to respect the browser’s “do not track” setting
       respectDoNotTrack = 'false'
   [params.privacy]

@@ -1,7 +1,3 @@
 environment = 'development'
-baseURL = 'http://127.0.0.1/'
+baseURL = '/'
 disableFastRender = 'true'
-
-[services]
-  [services.googleAnalytics]
-    ID = ''
