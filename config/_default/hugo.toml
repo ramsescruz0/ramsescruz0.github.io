@@ -117,7 +117,7 @@ titlecasestyle = 'AP'
       # LoveIt NEW | 0.3.1 whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
     #[params.analytics.fathom]
-    #  id = ''
+\    #  id = ''
     # server url for your tracker if you're self hosting
     #  server = ''
     # Plausible Analytics
@@ -287,7 +287,7 @@ titlecasestyle = 'AP'
     Lichess = ''
     Linkedin = 'ramsescruz0'
     Malt = ''
-    Mastodon = '@ramsescruz0'
+    Mastodon = 'https://mastodon.social/@ramsescruz0'
     Matrix = '@ramsescruz0:matrix.org'
 #    MediaWiki = 'https://meta.wikimedia.org/wiki/User:Ramsescruz0'
     Medium = ''
