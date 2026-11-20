@@ -117,7 +117,7 @@ titlecasestyle = 'AP'
       # LoveIt NEW | 0.3.1 whether to respect the browser’s “do not track” setting
       respectDoNotTrack = false
     #[params.analytics.fathom]
-\    #  id = ''
+    #  id = ''
     # server url for your tracker if you're self hosting
     #  server = ''
     # Plausible Analytics
